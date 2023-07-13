@@ -1,0 +1,40 @@
+.productContainer{
+    width: 70%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btnsBox button{
+    margin: 4px;
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    cursor: pointer;
+}
+
+.count{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+}
+
+.remove{
+    color: red;
+    border: 1px solid red;
+}
+
+.productPrice{
+    width: 30%;
+}
